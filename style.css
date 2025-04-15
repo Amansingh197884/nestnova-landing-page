@@ -72,7 +72,7 @@ font-weight: bolder;
 }
 @media screen and (max-width:500px){
     .home{
-        text-align: center;
+        /* text-align: center; */
         padding-top: 5.3rem;
     }
 }
@@ -139,17 +139,22 @@ background: linear-gradient(90deg, rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 1
         font-size: 2rem;
         /* text-transform: uppercase; */
         color: #fff;
-        text-align: center;
-        padding-top: 20px;
+        /* text-align: center; */
+        padding-top: 50px;
         /* max-width: 700px; */
+        font-family: garamond;
+        font-weight: bolder;
+
     }
     
     .home .contantttt p {
-        font-size: 0.8rem;
+        font-size: 1rem;
         color: #fff;
         padding: 1rem 0;
         max-height: 40rem;
-        text-align: center;
+        /* text-align: center; */
+        font-family: garamond;
+        font-weight: bolder;
     }
 }
 
