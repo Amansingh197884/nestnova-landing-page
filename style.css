@@ -15,6 +15,8 @@ a{
 p{
     font-family: garamond;
 
+}h2,h3,h4,h5,h6,p,a{
+    font-family: garamond;
 }
 
 
@@ -170,3 +172,53 @@ background: linear-gradient(90deg, rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 1
     text-align: start;
 }
 
+/* about us css start  */
+.herobg{
+    /* background-color: #19191c; */
+    background-color: #181717;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.HEROBGG{
+    background-color: #19191c;
+padding: 40px;
+}
+.likete{
+    border-bottom: solid 4px #734124;
+max-width: 170px;
+text-align: start;
+/* margin-bottom: 10px; */
+}
+.conta p{
+   
+text-align: start;
+}
+.conta a{
+margin-top: 20px;
+border-bottom: solid 2px #734124;
+max-width: 170px;
+text-align: start;
+text-decoration: none;
+color: #985128;
+font-size: 20px;
+}
+
+
+/* image css start all  */
+
+.imf1{
+    /* height: 300px; */
+    /* padding-top: 5px; */
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 2px 0 3px rgb(248, 235, 235);
+}
+@media screen and(max-width:500px){
+    .imf1{
+        height: 100%;
+    }
+}
+
+
+/* image css end all  */
