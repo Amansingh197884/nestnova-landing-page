@@ -1,0 +1,148 @@
+
+
+
+
+/* navbar css start  */
+
+.nav-item .nav-link{
+    color: #fff;
+}
+.Aman{
+    background-color: rgba(255, 255, 255, 0.212);
+    /* padding: 8px; */
+    border-radius: 17px;
+  
+}
+.navbar-toggler-icon{
+    color: #fff;
+}
+.navbar{
+    /* margin: 20px; */
+}
+.nav-link{
+    font-size: small;
+}
+
+
+.button a{
+text-decoration: none;
+padding: 6px 10px;
+border-radius: 17px;
+color: #fff;
+border: 1px solid #fff;
+background: transparent;
+}
+/* nav bar css end  */
+
+/* home section css start  */
+.home{
+    min-height: 100vh;
+    /* display: flex; */
+    /* align-items: center; */
+    /* background: url(aman.jpeg) no-repeat;  */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(image-new/home\ section\ bg-min.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    animation: change 10s infinite step-end;
+    padding: 5rem 7%;
+    /* text-align: start; */
+    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align-content: center; */
+
+}
+@media screen and (max-width:500px){
+    .home{
+        text-align: center;
+        padding-top: 5.3rem;
+    }
+}
+.buttonnn{
+    
+    width: 100%;
+    padding: 10px 20px;
+
+    letter-spacing: 3px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    background-color:  #004548;text-decoration: none;
+}
+.buttonnn:hover{
+    
+    background-color: #005c60;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1);
+    transition: 19ms;
+}
+
+
+
+
+
+
+
+@media screen and(max-width:360px) {
+    .home{
+        background-size: contain;
+        min-height: fit-content;
+    }
+}
+
+
+
+
+
+
+.home .contantttt h3 {
+    font-size: 4rem;
+    /* text-transform: uppercase; */
+    color: #fff;
+    text-align: start;
+    padding-top: 60px;
+    /* max-width: 700px; */
+}
+
+.home .contantttt p {
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem 0;
+    max-height: 40rem;
+    text-align: start;
+}
+@media screen and (max-width:500px){
+    .home .contantttt h3 {
+        font-size: 2rem;
+        /* text-transform: uppercase; */
+        color: #fff;
+        text-align: center;
+        padding-top: 10px;
+        /* max-width: 700px; */
+    }
+    
+    .home .contantttt p {
+        font-size: 0.8rem;
+        color: #fff;
+        padding: 1rem 0;
+        max-height: 40rem;
+        text-align: center;
+    }
+}
+
+
+
+.home.contantttt h3 {
+    font-size: 3rem;
+    text-align: start;
+}
+
+.home.contantttt p {
+    font-size: 1rem;
+    text-align: start;
+}
+
