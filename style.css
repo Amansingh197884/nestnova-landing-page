@@ -1,4 +1,8 @@
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
@@ -548,3 +552,112 @@ margin-left: 60px;
     background-color:  #734124;
  max-width: 300px;
 }
+/* footer .container{
+    background-color: #19191c;
+}
+
+.Aman-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    align-items: center;
+}
+.footer-col ul{
+list-style: none;
+}
+.footer-col h4{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 22px;
+    position: relative;
+    /* text-align: center; */
+
+/* .footer-col h4::before{
+    content: "";
+    width: 100px;
+    height: 2px;
+    position: absolute;
+    background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 1) 80%, rgba(217, 123, 68, 1) 100%);
+bottom: -10px;
+}
+.footer-col ul li{
+    padding: 10px;
+    /* text-align: center; */
+    .nameall{
+        padding: 15px;
+    }
+    .me a {
+        text-decoration: none;
+        position: relative;
+        
+    }
+    .me li{
+        list-style: none;
+        color: #fff;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    
+    }
+    .background {
+        /* background-image: url(https://static.vecteezy.com/system/resources/thumbnails/030/353/613/small/natural-background-ai-generated-photo.jpg); */
+        background-size: cover;
+        height: 100%;
+        display: flex;
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .booking-form {
+    
+        background-color: rgba(227, 208, 208, 0.838);
+        border-radius: 10px;
+        box-shadow: 2px 1px 10px;
+        /* flex-direction: column; */
+        max-width: 400px;
+        padding: 20px;
+        width: 80%;
+        margin: 0 auto;
+        background: transparent;
+    
+    
+    
+    }
+    
+    .booking-form h1 {
+        text-align: center;
+    }
+    
+    .booking-form form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .booking-form input {
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 1.3rem;
+    }
+    
+    .booking-form button {
+        margin-top: 10px;
+        padding: 5px;
+        background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 1) 80%, rgba(217, 123, 68, 1) 100%);
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1.5rem;
+    
+    }
+    
+    .booking-form label {
+        font-size: 1.5rem;
+    }
+    
+    .booking-form button:hover {
+        color: white;
+        background-color: darkgreen;
+    }
