@@ -257,6 +257,10 @@ background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 
     background-color: #19191c;
 padding: 40px;
 }
+.hero{
+    background-color: #19191c;
+padding-bottom: 30px;
+}
 .HEROBG{
     background-color: #19191c;
 padding-top: 40px;
@@ -298,13 +302,28 @@ font-size: 20px;
     /* padding-top: 5px; */
     height: 300px;
     border-radius: 15px;
-    box-shadow: 2px 0 3px rgb(248, 235, 235);
+    box-shadow: rgb(224, 183, 159) 0px 2px 8px 0px,rgba(210, 119, 66, 1) 0px 2px 10px 0px;
+
+}
+.imf2{
+    height: 330px;
+    
+    border-radius: 15px;
+    /* box-shadow: rgb(224, 183, 159) 0px 2px 8px 0px,rgba(210, 119, 66, 1) 0px 2px 10px 0px; */
 }
 @media screen and(max-width:500px){
     .imf1{
         height: 100%;
     }
 }
+.big{
+    font-size: 15rem;
+    /* color: #734124; */
+    /* background: #462817; */
+color:  rgba(70, 40, 23, 1) ;
+
+}
+
 
 
 /* image css end all  */
@@ -505,6 +524,31 @@ list .card-item .card-image {
     /* align-items: center; */
     /* justify-content: center; */
 }
+
+.card-neww{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 8 / 10;
+    border-radius: 20px;
+    background: #734124;
+    background: linear-gradient(90deg, rgb(43, 43, 46) 0%, rgb(80, 80, 82) 100%, rgb(3, 3, 3) 34%);    display: block;
+    user-select: none;
+    /* background: #effdf5; */
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: 0.2s ease;
+    /* margin: 40px; */
+    /* margin: 20px; */
+    object-fit: cover;
+    text-align: center;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+
+
 .card-new li{
     list-style: none;
     padding-left: 60px;
@@ -620,6 +664,8 @@ bottom: -10px;
         width: 80%;
         margin: 0 auto;
         background: transparent;
+        box-shadow: rgb(224, 183, 159) 0px 2px 8px 0px,rgba(210, 119, 66, 1) 0px 2px 10px 0px;
+
     
     
     
@@ -661,3 +707,107 @@ bottom: -10px;
         color: white;
         background-color: darkgreen;
     }
+    /* popup css  */
+/* popup button css */
+
+/* Button Styling */
+.open-btnn {
+    cursor: pointer;
+    /* background-color: #8b9eb7; */
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    /* border: none; */
+    border-radius: 30px;
+    border:solid 1px #fff;
+
+}
+
+.btttt {
+    margin-left: 20px;
+    border: none;
+
+}
+
+@media screen and (max-width:360px) {
+    .popup {
+        margin-top: 0px;
+
+    }
+
+}
+
+.open-btn {
+    border: none;
+}
+
+.open-btnn:hover {
+    background-color: #0056b3;
+}
+
+/* Popup Modal */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000;
+    margin-top: 45px;
+    background: transparent;
+    background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 1) 80%, rgba(217, 123, 68, 1) 100%);
+}
+
+@media screen and (max-width:400px) {
+    .popup {
+        width: 310px;
+    }
+}
+
+/* Overlay */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+/* Close Button */
+.close-btn {
+    background: rgb(17, 255, 0);
+    color: rgb(8, 8, 8);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.close-btn:hover {
+    background: darkred;
+    color: #fff;
+}
+
+#close {
+    display: block;
+    margin: 0px 0px 5px auto;
+    background-color: transparent;
+    font-size: 30px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    
+}
