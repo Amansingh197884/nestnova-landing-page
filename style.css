@@ -155,7 +155,6 @@ font-weight: bolder;
     
     width: 100%;
     padding: 10px 20px;
-
     letter-spacing: 3px;
     color: #fff;
     border: none;
@@ -170,7 +169,7 @@ background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 
     
     background-color: #005c60;
     color: rgb(255, 255, 255);
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
     transition: 19ms;
 }
 
@@ -275,6 +274,12 @@ color: #DDE4FF!important;
 .likete{
     border-bottom: solid 4px #734124;
 max-width: 170px;
+text-align: start;
+/* margin-bottom: 10px; */
+}
+.likete3{
+    border-bottom: solid 4px #9c4a1a;
+max-width: 200px;
 text-align: start;
 /* margin-bottom: 10px; */
 }
@@ -526,25 +531,30 @@ list .card-item .card-image {
 }
 
 .card-neww{
-    width: 100%;
-    object-fit: cover;
-    aspect-ratio: 8 / 10;
-    border-radius: 20px;
-    background: #734124;
-    background: linear-gradient(90deg, rgb(43, 43, 46) 0%, rgb(80, 80, 82) 100%, rgb(3, 3, 3) 34%);    display: block;
-    user-select: none;
+    /* width: 100%; */
+    /* object-fit: cover; */
+    /* aspect-ratio: 8 / 10; */
+    /* border-radius: 20px; */
+    /* background: linear-gradient(90deg, rgb(43, 43, 46) 0%, rgb(80, 80, 82) 100%, rgb(3, 3, 3) 34%);    display: block;
+    user-select: none; */
     /* background: #effdf5; */
-    padding: 20px;
-    border-radius: 12px;
-    text-decoration: none;
-    border: 2px solid transparent;
-    transition: 0.2s ease;
+    /* padding: 20px; */
+    /* border-radius: 12px; */
+    /* text-decoration: none; */
+    /* border: 2px solid transparent; */
+    /* transition: 0.2s ease; */
     /* margin: 40px; */
     /* margin: 20px; */
-    object-fit: cover;
-    text-align: center;
+    /* object-fit: cover; */
+    /* text-align: center; */
     /* align-items: center; */
     /* justify-content: center; */
+   
+}
+.nice{
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.662)), url(image-new/Aman\ back.jpeg);
+    background-position: center;
+    padding: 50px;
 }
 
 
@@ -655,17 +665,18 @@ bottom: -10px;
     
     .booking-form {
     
-        background-color: rgba(227, 208, 208, 0.838);
+        /* background-color: rgba(227, 208, 208, 0.308); */
         border-radius: 10px;
-        box-shadow: 2px 1px 10px;
+        /* box-shadow: 2px 1px 10px; */
         /* flex-direction: column; */
         max-width: 400px;
         padding: 20px;
+        height: 450px;
         width: 80%;
         margin: 0 auto;
         background: transparent;
-        box-shadow: rgb(224, 183, 159) 0px 2px 8px 0px,rgba(210, 119, 66, 1) 0px 2px 10px 0px;
-
+        /* box-shadow: rgb(224, 183, 159) 0px 2px 8px 0px,rgba(210, 119, 66, 1) 0px 2px 10px 0px; */
+border: 1px solid #fff;
     
     
     
@@ -810,4 +821,12 @@ bottom: -10px;
     cursor: pointer;
     color: rgb(255, 255, 255);
     
+}
+/* form css on  */
+.AMAN-d li{
+    list-style: none;
+}
+.AMAN-d li,h6,h2{
+    text-align: start;
+    margin-bottom: 15px;
 }
