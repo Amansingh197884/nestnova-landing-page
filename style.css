@@ -99,7 +99,7 @@ h2,h3,h4,h5,h6,a{
     color: #fff;
 }
 .Aman{
-    background-color: rgba(255, 255, 255, 0.212);
+    background-color: rgba(255, 255, 255, 0.358);
     /* padding: 8px; */
     border-radius: 40px;
 }
@@ -123,6 +123,11 @@ border: 1px solid #fff;
 background: transparent;
 font-weight: bolder;
 }
+.button a:hover{
+    background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 1) 80%, rgba(217, 123, 68, 1) 100%);
+color: #fff;
+border: none;
+}
 /* nav bar css end  */
 
 /* home section css start  */
@@ -131,7 +136,7 @@ font-weight: bolder;
     /* display: flex; */
     /* align-items: center; */
     /* background: url(aman.jpeg) no-repeat;  */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(image-new/home\ section\ bg-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(image-new/Amanbg1.jpeg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -145,11 +150,60 @@ font-weight: bolder;
     /* align-content: center; */
 
 }
+@keyframes change {
+    0%{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(image-new/Amanbg1.jpeg);
+
+    }
+    20% {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(image-new/Amanbg2.jpeg);
+    }
+
+    40% {
+background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(image-new/free-photo-of-skyscrapers-illuminated-at-night.jpeg);
+    }
+
+}
+
 @media screen and (max-width:500px){
     .home{
         /* text-align: center; */
         padding-top: 5.3rem;
     }
+}
+#form{
+    /* padding: 2rem 1%; */
+    background-color: rgba(255, 255, 255, 0.352);
+    width: 350px;
+    height: 340px;
+    border-radius: 0 15%;
+    box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
+    border: 1px solid #e8e8ef;
+    margin-top: 80px   ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+@media screen and (max-width:400px){
+    #form{
+        width: 400px;
+        height: 450px;
+        margin-top: 20px;
+        padding: 0;
+    }
+}
+
+.huuu{
+    /* font-style: italic; */
+    font-size: 40px;
+    /* display: block; */
+    font-weight: 1000;
+    color: #de580a;
+    /* border: solid rgba(255, 255, 255, 0.352); */
+    /* margin: 10px ; */
+    margin-bottom: 20px;
 }
 .buttonnn{
     
@@ -768,11 +822,14 @@ border: 1px solid #fff;
     background: white;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    text-align: center;
+    /* text-align: center; */
     z-index: 1000;
     margin-top: 45px;
+    border-radius: 25% 10px;
     background: transparent;
-    background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 1) 80%, rgba(217, 123, 68, 1) 100%);
+    background: #833AB4;
+background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(230, 35, 58, 1) 0%, rgba(240, 32, 67, 0.78) 0%, rgba(253, 29, 29, 0.71) 8%, rgba(252, 176, 69, 0.81) 100%);
+    /* background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 1) 80%, rgba(217, 123, 68, 1) 100%); */
 }
 
 @media screen and (max-width:400px) {
@@ -816,11 +873,11 @@ border: 1px solid #fff;
     background-color: transparent;
     font-size: 30px;
     font-weight: 500;
-    border: none;
     outline: none;
     cursor: pointer;
     color: rgb(255, 255, 255);
-    
+    /* background-color: #fff; */
+    border: none;
 }
 /* form css on  */
 .AMAN-d li{
