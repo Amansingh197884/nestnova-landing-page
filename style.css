@@ -100,7 +100,7 @@ h2,h3,h4,h5,h6,a{
     color: #fff;
 }
 .Aman{
-    background-color: rgba(255, 255, 255, 0.358);
+    background-color: rgba(121, 120, 120, 0.742);
     /* padding: 8px; */
     border-radius: 40px;
 }
@@ -434,6 +434,20 @@ color:  rgba(70, 40, 23, 1) ;
     transition: 1s;
     margin: 20px;
 }
+.card-linkk{
+    display: block;
+    user-select: none;
+    /* background: #effdf5; */
+    /* padding: 18px; */
+    border-radius: 12px;
+    text-decoration: none;
+    text-align: center;
+    border: 2px solid transparent;
+    /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05); */
+    transition: 1s;
+    margin: 20px;
+}
+
 
 .card-list .card-item .card-link:active {
     cursor: grabbing;
@@ -564,19 +578,21 @@ list .card-item .card-image {
 
 }
 .new-home{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(image-new/home2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://www.flexjobs.com/blog/wp-content/uploads/2022/12/07082032/10-Companies-That-Hire-for-Remote-Real-Estate-Jobs.jpg?w=1024);
     background-size: cover;
     background-position: center;
     /* position: relative; */
     overflow: hidden;
     height: 60vh;
     border-radius: 10px;
+ text-align: start;
+    align-content: center;
 
 }
 @media screen and (max-width:500px){
     .new-home{
         background-size: contain;
-        
+
     }
 }
 .banner h1{
