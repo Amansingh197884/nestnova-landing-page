@@ -593,6 +593,7 @@ list .card-item .card-image {
 @media screen and (max-width:500px){
     .new-home{
         background-size: contain;
+        height: 0;
 
     }
 }
@@ -633,6 +634,7 @@ list .card-item .card-image {
     /* text-align: center; */
     /* align-items: center; */
     /* justify-content: center; */
+
 }
 
 .card-neww{
@@ -662,12 +664,17 @@ list .card-item .card-image {
     padding: 50px;
 }
 .card-new{
-    align-content: center;
+    /* align-content: center; */
     /* justify-content: center; */
     /* text-align: center; */
     /* align-items: center; */
 }
-
+.card-new h6{
+    text-align: center;
+}
+ol{
+    list-style: none;
+}
 
 .card-new li{
     list-style: none;
@@ -945,4 +952,7 @@ border: 1px solid #fff;
 .AMAN-d li,h6,h2{
     text-align: start;
     margin-bottom: 15px;
+}
+ol li h6{
+    font-size: 17px;
 }
