@@ -587,6 +587,7 @@ list .card-item .card-image {
     border-radius: 10px;
  text-align: start;
     align-content: center;
+    background-repeat: no-repeat;
 
 }
 @media screen and (max-width:500px){
@@ -660,16 +661,23 @@ list .card-item .card-image {
     background-position: center;
     padding: 50px;
 }
-
+.card-new{
+    align-content: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+}
 
 
 .card-new li{
     list-style: none;
-    padding-left: 60px;
+    /* align-items: center; */
+    /* padding-left: 60px; */
     color: #fff;
+    /* margin-left: 95px; */
 }
 .card-new h1{
-    padding-left: 60px;
+    /* padding-left: 60px; */
     margin-bottom: 5px;
 }
 .buttonn a{
@@ -681,7 +689,7 @@ border: 1px solid #fff;
 background: transparent;
 font-weight: bolder;
 max-width: 200px;
-margin-left: 60px;
+/* margin-left: 95px; */
 }
 .alll-center{
     text-align: start;
