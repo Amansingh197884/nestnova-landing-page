@@ -75,7 +75,8 @@ h2,h3,h4,h5,h6,a{
     transform: translateX(-50%);
     width: 0%;
     height: 2px;
-    background-color: #985128;
+    background-color: #de580a;
+    ;
     visibility: hidden;
     transition: 0.4s ease-in-out;
 }
@@ -85,7 +86,7 @@ h2,h3,h4,h5,h6,a{
     visibility: visible;
 }
 .nav-item .nav-link:hover{
-    color: #985128;
+    color: #f9d1b9;
     font-weight: bold;
 }
 
@@ -148,6 +149,7 @@ border: none;
     /* justify-content: center; */
     /* align-items: center; */
     /* align-content: center; */
+    padding-top: 100px;
 
 }
 @keyframes change {
@@ -180,6 +182,8 @@ background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url
     box-shadow: 0 3px 6px rgba(91, 130, 148, 0.08);
     border: 1px solid #e8e8ef;
     margin-top: 80px   ;
+    /* margin-bottom: 20px; */
+    padding-bottom: 30px;
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -225,6 +229,21 @@ background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 
     color: rgb(255, 255, 255);
     /* transform: scale(1.1); */
     transition: 19ms;
+}
+.Aman-buta{
+    width: 100%;
+    padding: 10px 20px;
+    /* letter-spacing: 3px; */
+    color: #f54141;
+    border: none;
+    border-radius: 50px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    /* text-align: start; */
+    font-size: larger;
+    text-decoration: none;
+    background-color: rgb(32, 30, 30);
+
 }
 
 
@@ -407,7 +426,7 @@ color:  rgba(70, 40, 23, 1) ;
     text-decoration: none;
     border: 2px solid transparent;
     /* box-shadow: 0 10px 10px rgba(0, 0, 0, 0.05); */
-    transition: 0.2s ease;
+    transition: 1s;
     margin: 20px;
 }
 
@@ -415,7 +434,11 @@ color:  rgba(70, 40, 23, 1) ;
     cursor: grabbing;
 }
 
-.card-list .card-item .card-link:hover {}
+.card-list .card-item .card-link:hover {
+transform: scale(1.1);
+z-index: 2;
+
+}
 
 .card-list .card-item .card-image {
     width: 100%;
@@ -827,8 +850,9 @@ border: 1px solid #fff;
     margin-top: 45px;
     border-radius: 25% 10px;
     background: transparent;
-    background: #833AB4;
-background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(230, 35, 58, 1) 0%, rgba(240, 32, 67, 0.78) 0%, rgba(253, 29, 29, 0.71) 8%, rgba(252, 176, 69, 0.81) 100%);
+    background-color: #2a2a2bf9;
+    /* background: #833AB4; */
+/* background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(230, 35, 58, 1) 0%, rgba(240, 32, 67, 0.78) 0%, rgba(253, 29, 29, 0.71) 8%, rgba(252, 176, 69, 0.81) 100%); */
     /* background: linear-gradient(90deg,  rgba(115, 65, 36, 1) 0%, rgba(210, 119, 66, 1) 80%, rgba(217, 123, 68, 1) 100%); */
 }
 
