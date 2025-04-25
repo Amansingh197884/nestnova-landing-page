@@ -597,6 +597,9 @@ list .card-item .card-image {
 
     }
 }
+i:hover{
+    cursor: pointer;
+}
 .banner h1{
     /* justify-content: center; */
     text-align: start;
