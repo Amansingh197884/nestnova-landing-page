@@ -425,7 +425,7 @@ color:  rgba(70, 40, 23, 1) ;
 
 /* card section */
 .card-wrapper {
-    max-width: 1440px;
+    max-width: 2440px;
     overflow: hidden;
 }
 
@@ -547,12 +547,18 @@ list .card-item .card-image {
 
 .wonders{
     padding-left: 0;
+    /* align-items: center;
+    justify-content: center;
+    align-content: center; */
 }
-@media screen and (min-width: 1450px) {
+/* @media screen and (min-width: 1450px) {
     .wonders {
         padding-left: 4rem;
+        align-items: center;
+    justify-content: center;
+    align-content: center; 
     }
-}
+} */
 
 
 
