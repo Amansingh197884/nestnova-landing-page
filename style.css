@@ -548,9 +548,9 @@ list .card-item .card-image {
 .wonders{
     padding-left: 0;
 }
-@media screen and (min-width:1450px){
-    .wonders{
-        padding-left: 35px;
+@media screen and (min-width: 1450px) {
+    .wonders {
+        padding-left: 4rem;
     }
 }
 
